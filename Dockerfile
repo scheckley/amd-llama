@@ -1,7 +1,7 @@
 FROM rocm/dev-ubuntu-22.04:6.0.2-complete AS builder
 
 #ENV LLAMA_CPP_PYTHON_RELEASE 0.2.50
-ENV LLAMA_CPP_PYTHON_RELEASE 0.3.50
+ENV LLAMA_CPP_PYTHON_RELEASE 0.3.5
 
 # From /opt/rocm/lib/rocblas/library/
 ENV AMDGPU_TARGETS gfx803;gfx900;gfx906:xnack-;gfx908:xnack-;gfx90a:xnack+;gfx90a:xnack-;gfx940;gfx941;gfx942;gfx1010;gfx1012;gfx1030;gfx1100;gfx1101;gfx1102
